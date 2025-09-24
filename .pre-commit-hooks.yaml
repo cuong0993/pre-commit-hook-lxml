@@ -13,7 +13,7 @@
     + Remove blank lines
   entry: lxml_format
   language: python
-  types: [xml]
+  files: \.(entitlements|plist|storyboard|xcscheme|xcsettings|xml)$
   stages:
     - pre-commit
     - pre-merge-commit
