@@ -13,7 +13,6 @@
     + Remove blank lines
   entry: lxml_format
   language: python
-  types: [xml]
   stages:
     - pre-commit
     - pre-merge-commit
